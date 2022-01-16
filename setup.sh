@@ -32,7 +32,7 @@ echo -e "${NC}${LIGHT}WhatsApp : 088228877739"
 echo -e "${NC}${LIGHT}Telegram : https://t.me/fer1dev"
 exit 0
 fi
-rm -f setup.sh
+rm setup.sh
 clear
 if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"

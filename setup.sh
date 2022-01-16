@@ -516,8 +516,8 @@ echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
-echo "   - SSH WS TLS              : 2053"  | tee -a log-install.txt
-echo "   - SSH WS TLS              : 2095"  | tee -a log-install.txt
+echo "   - SSH WS TLS              : 443"  | tee -a log-install.txt
+echo "   - SSH WS TLS              : 2086"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
@@ -534,7 +534,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------Script Created By Brody-----------------" | tee -a log-install.txt
+echo "------------------Script Created By Fsidvpn-----------------" | tee -a log-install.txt
 echo ""
 echo " reboot 10 Sec"
 sleep 10

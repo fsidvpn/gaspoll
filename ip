@@ -2,4 +2,4 @@
 13.90.195.69
 asw
 testing
-
+echo "" > .gitignore

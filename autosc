@@ -1,0 +1,47 @@
+#!/bin/bash
+
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+bl='\e[36;1m'
+bd='\e[1m'
+
+clear
+figlet -f slant "PANEL AUTO INSTALL SCRIPT FSID VPN" | lolcat
+echo ""
+echo -e " ╔═══════════════════════════════════════╗" | lolcat
+echo -e " ║     MENU  AUTO  INSTALL  SCRIPT       ║" | lolcat
+echo -e " ╠═══════════════════════════════════════╝" | lolcat
+echo -e " $bd║\e[m"
+echo -e " $bd║\e[m 1$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM"
+echo -e " $bd║\e[m"
+echo -e " $bd║\e[m 1$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM"
+echo -e " $bd║\e[m"
+echo -e " $bd║\e[m x$bl]\e[m$bd BATAL INSTALL AUTOSCRIPT"
+echo -e " $bd║\e[m"
+echo -e " ╠═══════════════════════════════════════╗" | lolcat
+echo -e " ║ COPYRIGHT ©2022 AUTOINSTALL BY FSIDVPN║" | lolcat
+echo -e " ╚═══════════════════════════════════════╝" | lolcat
+echo -e "\e[1;31m"
+read -p "    Please select an option :  "  installscript
+echo -e "\e[0m"
+case $installscript in
+    1)
+    clear
+    echo -e figlet -f slant "INSTALLING SCRIPT VPS" | lolcat
+    rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fsidvpn/vps/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+    2)
+    clear
+    echo -e figlet -f slant "INSTALLING FULL PREMIUM SCRIPT VPS" | lolcat
+    rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/fsidvpn/scriptvps/main/setup && chmod +x setup && screen -S setup ./setup
+    exit
+    ;;
+    x)
+    echo -e " Good bye-bye "
+    sudo -i
+    exit
+    echo -e "\e[1;31mPlease enter an correct number\e[0m"
+    clear
+    exit
+    ;;
+esac

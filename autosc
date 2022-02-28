@@ -13,9 +13,9 @@ echo -e " ╔══════════════════════�
 echo -e " ║     MENU  AUTO  INSTALL  SCRIPT       ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╝" | lolcat
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m 1$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM"
+echo -e " $bd║\e[m 1$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM" | lolcat
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m 1$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM"
+echo -e " $bd║\e[m 2$bl]\e[m$bd LANJUT INSTALL AUTOSCRIPT PREMIUM" | lolcat
 echo -e " $bd║\e[m"
 echo -e " $bd║\e[m x$bl]\e[m$bd BATAL INSTALL AUTOSCRIPT"
 echo -e " $bd║\e[m"

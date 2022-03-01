@@ -7,7 +7,7 @@ bl='\e[36;1m'
 bd='\e[1m'
 
 clear
-figlet -f slant "PANEL AUTO INSTALL SCRIPT FSID VPN" | lolcat
+echo -e           "PANEL AUTO INSTALL SCRIPT FSID VPN" | lolcat
 echo ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
 echo -e " ║     MENU  AUTO  INSTALL  SCRIPT       ║" | lolcat
@@ -15,14 +15,14 @@ echo -e " ╠══════════════════════�
 echo -e " $bd║\e[m"
 echo -e " $bd║\e[m 1$bl]\e[m$bd AUTOSCRIPT SPECIAL VPS DO VMESS 443"
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m 2$bl]\e[m$bd AUTOSCRIPT TROJAN 443 SPESIAL"
+echo -e " $bd║\e[m 2$bl]\e[m$bd AUTOSCRIPT SPECIAL TROJAN 443"
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m 3$bl]\e[m$bd AUTOSCRIPT NORMALL ALLVPS V3"
+echo -e " $bd║\e[m 3$bl]\e[m$bd AUTOSCRIPT NORMALL ALL VPS V3"
 echo -e " $bd║\e[m"
 echo -e " $bd║\e[m x$bl]\e[m$bd BATAL INSTALL AUTOSCRIPT"
 echo -e " $bd║\e[m"
 echo -e " ╠═══════════════════════════════════════╗" | lolcat
-echo -e " ║ COPYRIGHT ©2022 AUTOINSTALL BY FSIDVPN║" | lolcat
+echo -e " ║ COPYRIGHT ©2022 AUTOSCRIPT BY FSIDVPN║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "    Please select an option :  "  installscript

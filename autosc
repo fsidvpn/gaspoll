@@ -10,7 +10,7 @@ clear
 echo ""
 echo ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
-echo -e " ║  MENU PANEL  AUTO  INSTALL  SCRIPT     ║" | lolcat
+echo -e " ║  MENU PANEL  AUTO  INSTALL  SCRIPT    ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╝" | lolcat
 echo -e " $bd║\e[m"
 echo -e " $bd║\e[m 1$bl]\e[m$bd AUTOSCRIPT SPECIAL VPS DO VMESS 443"
@@ -22,7 +22,7 @@ echo -e " $bd║\e[m"
 echo -e " $bd║\e[m x$bl]\e[m$bd BATAL INSTALL AUTOSCRIPT"
 echo -e " $bd║\e[m"
 echo -e " ╠═══════════════════════════════════════╗" | lolcat
-echo -e " ║COPYRIGHT ©2022 AUTOSCRIPT BY FSIDVPN║" | lolcat
+echo -e " ║ COPYRIGHT ©2022 AUTOSCRIPT BY FSIDVPN║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "    Please select an option :  "  installscript

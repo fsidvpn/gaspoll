@@ -10,7 +10,7 @@ clear
 echo ""
 echo ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
-echo -e " ║      MENU PANEL  AUTO  INSTALL  SCRIPT       ║" | lolcat
+echo -e " ║    MENU PANEL  AUTO  INSTALL  SCRIPT       ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╝" | lolcat
 echo -e " $bd║\e[m"
 echo -e " $bd║\e[m 1$bl]\e[m$bd AUTOSCRIPT SPECIAL VPS DO VMESS 443"

@@ -109,11 +109,13 @@ clear
 
 sleep 2
 
-hem="IP BERHASIL DI DAFTARKAN"
+rm -r -f /etc/.$Name.ini
+
+hem=figlet slant "IP BERHASIL DI DAFTARKAN"
 
 echo -e $GREEN $hem
 
-sleep 2
+sleep 10
 
 figlet -f slant "INSTALLING SCRIPT PLEASE WAIT" | lolcat
 sleep 1

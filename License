@@ -111,7 +111,7 @@ sleep 2
 
 rm -r -f /etc/.$Name.ini
 
-hem=figlet slant "IP BERHASIL DI DAFTARKAN"
+hem= figlet slant "IP BERHASIL DI DAFTARKAN"
 
 echo -e $GREEN $hem
 

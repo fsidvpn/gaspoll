@@ -11,7 +11,9 @@ PURPLE='\033[0;35m'
 LIGHT='\033[0;37m'
 off='\x1b[m'
 # ==========================================
-rm -f License
+
+rm -r -f License
+
 #LICENSE
 read -p "Masukan LICENSE Anda : " sub
 echo "Cecking License for ${sub}..."
@@ -119,6 +121,7 @@ sleep 1
 
 else
 red "License Tidak Ditemukan!"
+rm -r -f License
 exit 0
 fi
 

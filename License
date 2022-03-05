@@ -12,7 +12,7 @@ LIGHT='\033[0;37m'
 off='\x1b[m'
 # ==========================================
 
-rm -r -f License
+clear
 
 #LICENSE
 read -p "Masukan LICENSE Anda : " sub
@@ -118,6 +118,8 @@ sleep 2
 figlet -f slant "INSTALLING SCRIPT PLEASE WAIT" | lolcat
 sleep 1
     rm -f setupp.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt-get update -y && apt-get upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fsidvpn/vps/main/setupp.sh && chmod +x setupp.sh && sed -i -e 's/\r$//' setupp.sh && screen -S setupp ./setupp.sh
+
+    rm -r -f License
 
 else
 red "License Tidak Ditemukan!"

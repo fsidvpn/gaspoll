@@ -86,20 +86,15 @@ mkdir /var/lib/tes
 cd /var/lib/tes
 
 apt install git -y
-
 git config --global user.email "mobilgen1234@gmail.com"
-
 git config --global user.name "fsidvpn"
-
 git clone https://github.com/fsidvpn/perizinan.git
-
 clear
 
 #LICENSE                                                                        
 apt install curl -y
 su=$(curl -sS ipinfo.io/ip)                                           
 echo "Registering Ip ${su}..."
-
 subb="PREMI"$(</dev/urandom tr -dc 0-9 | head -c2)
 echo "#& "$subb" Lifetime "$su >> /var/lib/tes/perizinan/main/allow
 
@@ -109,7 +104,7 @@ git add allow
 
 git commit -m allow
 
-git push -f https://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@github.com/fsidvpn/perizinan.git
+git push -f https://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@github.com/fsidvpn/perizinan.git
 
 clear
 

@@ -85,6 +85,8 @@ mkdir /var/lib/tes
 
 cd /var/lib/tes
 
+apt install git -y
+
 git config --global user.email "mobilgen1234@gmail.com"
 
 git config --global user.name "fsidvpn"

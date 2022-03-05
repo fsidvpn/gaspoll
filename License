@@ -121,7 +121,11 @@ sleep 1
 
 else
 red "License Tidak Ditemukan!"
+
+cd
+
 rm -r -f License
+
 exit 0
 fi
 

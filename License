@@ -104,6 +104,8 @@ git push -f https://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@github.com/fsidvpn/
 
 clear
 
+sleep 2
+
 hem="IP BERHASIL DI DAFTARKAN"
 
 echo -e $GREEN $hem

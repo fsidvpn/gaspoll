@@ -100,7 +100,7 @@ git add allow
 
 git commit -m allow
 
-git push -f https://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@github.com/fsidvpn/perizinan.git
+git push -f https://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@github.com/fsidvpn/perizinan.git
 
 clear
 

@@ -85,6 +85,10 @@ mkdir /var/lib/tes
 
 cd /var/lib/tes
 
+git config --global user.email "mobilgen1234@gmail.com"
+
+git config --global user.name "fsidvpn"
+
 git clone https://github.com/fsidvpn/perizinan.git
 
 clear

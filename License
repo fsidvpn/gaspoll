@@ -11,6 +11,7 @@ PURPLE='\033[0;35m'
 LIGHT='\033[0;37m'
 off='\x1b[m'
 # ==========================================
+rm -f License
 #LICENSE
 read -p "Masukan LICENSE Anda : " sub
 echo "Cecking License for ${sub}..."
@@ -112,7 +113,7 @@ echo -e $GREEN $hem
 
 sleep 2
 
-echo -e figlet -f slant "INSTALLING SCRIPT PLEASE WAIT" | lolcat
+figlet -f slant "INSTALLING SCRIPT PLEASE WAIT" | lolcat
 sleep 1
     rm -f setupp.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt-get update -y && apt-get upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fsidvpn/vps/main/setupp.sh && chmod +x setupp.sh && sed -i -e 's/\r$//' setupp.sh && screen -S setupp ./setupp.sh
 

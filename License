@@ -103,13 +103,11 @@ git add allow
 
 git commit -m allow
 
-git push -f https://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@github.com/fsidvpn/perizinan.git
+git push -f https://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@github.com/fsidvpn/perizinan.git
 
 clear
 
 sleep 2
-
-rm -r -f /etc/.$Name.ini
 
 hem= figlet slant "IP BERHASIL DI DAFTARKAN"
 

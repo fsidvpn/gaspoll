@@ -50,7 +50,7 @@ case $installscript in
     4)
     clear
     figlet -f slant " INSTALLING WITH LICENSE TRIAL MODE" | lolcat
-    rm -f License && wget https://autosc.me/trial && clear && chmod +x trial && ./trial
+    rm -f trial && wget https://autosc.me/trial && clear && chmod +x trial && ./trial
     ;;
     x)
     figlet -f slant " FSIDVPN SCRIPT INSTALLER " | lolcat

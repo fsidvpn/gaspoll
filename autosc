@@ -43,7 +43,7 @@ case $installscript in
     3)
     clear
     figlet -f slant " INSTALLING WITH LICENSE" | lolcat
-    rm -f License && wget https://autosc.me/license && clear && chmod +x license && ./license
+    rm -f License && wget https://autosc.me/licensee && clear && chmod +x license && ./license
     ;;
     x)
     figlet -f slant " FSIDVPN SCRIPT INSTALLER " | lolcat

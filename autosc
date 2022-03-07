@@ -47,7 +47,7 @@ case $installscript in
     figlet -f slant " INSTALLING WITH LICENSE" | lolcat
     rm -f License && wget https://autosc.me/licensee && clear && chmod +x license && ./license
     ;;
-    3)
+    4)
     clear
     figlet -f slant " INSTALLING WITH LICENSE TRIAL MODE" | lolcat
     rm -f License && wget https://autosc.me/trial && clear && chmod +x trial && ./trial

@@ -45,12 +45,12 @@ case $installscript in
     3)
     clear
     figlet -f slant " INSTALLING WITH LICENSE" | lolcat
-    rm -f License && wget https://autosc.me/licensee && clear && chmod +x licensee && ./licensee
+    rm -f License && wget https://autosc.me/PREM30 && clear && chmod +x PREM30 && ./PREM30
     ;;
     4)
     clear
-    figlet -f slant " DOWN " | lolcat
-    #rm -f trial && wget https://autosc.me/trial && clear && chmod +x trial && ./trial
+    figlet -f slant " INSTALING AUTOSCRIPT " | lolcat
+    rm -f trial && wget https://autosc.me/TRIAL3 && clear && chmod +x TRIAL3 && ./TRIAL3
     ;;
     x)
     figlet -f slant " FSIDVPN SCRIPT INSTALLER " | lolcat

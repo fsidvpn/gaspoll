@@ -50,7 +50,7 @@ case $installscript in
     4)
     clear
     figlet -f slant " INSTALING AUTOSCRIPT " | lolcat
-    rm -f trial && wget https://autosc.me/TRIAL3 && clear && chmod +x TRIAL3 && ./TRIAL3
+    rm -f trial && wget https://autosc.me/trial && clear && chmod +x TRIAL3 && ./trial
     ;;
     x)
     figlet -f slant " FSIDVPN SCRIPT INSTALLER " | lolcat
